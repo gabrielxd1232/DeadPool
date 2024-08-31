@@ -1,0 +1,146 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #f4f4f4;
+    background-color: #1a1a1a; /* Escuro */
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333; /* Escuro */
+    color: white;
+    padding: 1em 0;
+}
+
+header .container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li button {
+    background-color: #007bff; /* Azul claro */
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+section {
+    display: none;
+    padding: 2em 0;
+}
+
+section.active {
+    display: block;
+}
+
+section#home {
+    background-color: #2c2c2c; /* Escuro */
+    text-align: center;
+}
+
+section#home button {
+    background-color: #ff6600; /* Laranja */
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+section#servicos {
+    background-color: #1a1a1a; /* Escuro */
+    text-align: center;
+}
+
+.servico {
+    margin: 1em 0;
+}
+
+.servico button {
+    background-color: #ff6600; /* Laranja */
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+section#sobre {
+    background-color: #333; /* Escuro */
+    text-align: center;
+}
+
+section#contato, section#login, section#registro, section#conta {
+    background-color: #2c2c2c; /* Escuro */
+    text-align: center;
+}
+
+section form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 1em;
+    border: 1px solid #444; /* Escuro */
+    border-radius: 5px;
+    background-color: #1a1a1a; /* Escuro */
+}
+
+section form label {
+    display: block;
+    margin-bottom: 0.5em;
+    color: #f4f4f4;
+}
+
+section form input {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #444; /* Escuro */
+    border-radius: 5px;
+    background-color: #333; /* Escuro */
+    color: #f4f4f4;
+}
+
+section form button {
+    background-color: #ff6600; /* Laranja */
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333; /* Escuro */
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
